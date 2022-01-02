@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.character {
+  width: 300px;
+  height: 300px;
+  border: 10px solid gray;
+  background-color: gray;
+  text-align: center;
+  margin: 20px auto;
+  background-image: cover;
+  color: white;
+}
+.img {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s linear;
+}
+.Link:hover {
+  text-decoration: underline;
+}
